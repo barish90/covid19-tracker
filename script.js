@@ -80,7 +80,6 @@ covidTracker.countrySearch = (searchTerm) => {
         }
     })
     .then((covidData) => {
-        console.log (covidData);
 
         $('.cuntry-list').html('');
 
